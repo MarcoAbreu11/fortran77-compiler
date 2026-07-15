@@ -82,7 +82,7 @@ After generating the VM code, it can be executed in the virtual machine of the c
 
 ## Academic Context
 
-* **Course:** Language Processing and Compilers2
+* **Course:** Language Processing and Compilers
 * **Degree:** Computer Science
 * **Institution:** University of Minho
 * **Academic Year:** 2025/2026
