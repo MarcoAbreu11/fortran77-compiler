@@ -4,7 +4,7 @@ A compiler for a subset of Fortran 77, developed in Python using the PLY (Python
 
 ## Overview
 
-This project implements a complete compilation pipeline, translating a specific subset of Fortran 77 into instructions for a custom stack-based Virtual Machine. The pipeline operates through the following stages:
+This project implements a complete compilation pipeline, translating a specific subset of Fortran 77 into instructions for a custom stack-based [Virtual Machine](https://ewvm.epl.di.uminho.pt/). The pipeline operates through the following stages:
 
 1. **Lexical Analysis:** Tokenization of the source code.
 2. **Syntactic Analysis:** Grammar parsing and structural validation.
@@ -78,7 +78,7 @@ python AnasinFortran.py --test
 python AnasinFortran.py -t
 ```
 
-After generating the VM code, it can be executed in the virtual machine of the course.
+After generating the VM code, it can be executed in the [Virtual Machine](https://ewvm.epl.di.uminho.pt/) of the course.
 
 ## Academic Context
 
