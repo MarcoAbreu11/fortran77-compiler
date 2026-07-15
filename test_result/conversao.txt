@@ -1,0 +1,76 @@
+pushn 3
+start
+pushs "INTRODUZA UM NUMERO DECIMAL INTEIRO:"
+writes
+writeln
+read
+atoi
+storeg 0
+pushi 2
+storeg 1
+Ldostart1:
+pushg 1
+pushi 9
+infeq
+jz Ldoend2
+pushg 0
+pushg 1
+pusha CONVRT
+call
+storeg 2
+pushs "BASE "
+writes
+pushg 1
+writei
+pushs ": "
+writes
+pushg 2
+writei
+writeln
+pushg 1
+pushi 1
+add
+storeg 1
+jump Ldostart1
+Ldoend2:
+stop
+CONVRT:
+pushn 5
+pushi 0
+storel 4
+pushi 1
+storel 3
+pushfp
+load -2
+storel 1
+Lfortran20:
+pushl 1
+pushi 0
+sup
+jz Lifend3
+pushl 1
+pushfp
+load -1
+mod
+storel 2
+pushl 4
+pushl 2
+pushl 3
+mul
+add
+storel 4
+pushl 1
+pushfp
+load -1
+div
+storel 1
+pushl 3
+pushi 10
+mul
+storel 3
+jump Lfortran20
+Lifend3:
+pushl 4
+storel 0
+pushl 0
+return

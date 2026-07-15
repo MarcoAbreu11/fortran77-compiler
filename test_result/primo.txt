@@ -1,0 +1,52 @@
+pushn 3
+start
+pushs "Introduza um numero inteiro positivo:"
+writes
+writeln
+read
+atoi
+storeg 0
+pushi 1
+storeg 2
+pushi 2
+storeg 1
+Lfortran20:
+pushg 1
+pushg 0
+pushi 2
+div
+infeq
+pushg 2
+and
+jz Lifend1
+pushg 0
+pushg 1
+mod
+pushi 0
+equal
+jz Lifend2
+pushi 0
+storeg 2
+Lifend2:
+pushg 1
+pushi 1
+add
+storeg 1
+jump Lfortran20
+Lifend1:
+pushg 2
+jz Lifelse3
+pushg 0
+writei
+pushs " e um numero primo"
+writes
+writeln
+jump Lifend4
+Lifelse3:
+pushg 0
+writei
+pushs " nao e um numero primo"
+writes
+writeln
+Lifend4:
+stop
