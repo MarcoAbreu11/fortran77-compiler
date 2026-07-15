@@ -43,7 +43,7 @@ The compiler supports the necessary language constructs to execute a variety of 
 ├── tests/
 │   ├── conversao.txt       # Decimal conversion to bases 2-9
 │   ├── fatorial.txt        # Factorial calculation
-│   ├── ola.txt             # Hello world / minimal print
+│   ├── ola.txt             # Hello world
 │   ├── primo.txt           # Prime number verification
 │   └── soma.txt            # Array summation
 ├── report.md
