@@ -1,6 +1,6 @@
 # Report — Fortran 77 Compiler for Virtual Machine
 
-**Course:** Language Processing
+**Course:** Language Processing and Compilers
 
 **Assignment:** Compiler of a subset of Fortran 77 for the provided virtual machine
 
